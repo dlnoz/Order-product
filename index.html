@@ -7,13 +7,18 @@
     <title>Order Product</title>
     <style type="text/tailwindcss"></style>
 </head>
-<body>
+<body class="p-5 bg-slate-300">
     
+    <ul class="list flex flex-wrap justify-between gap-[20px]"></ul>
 
 
+    <div id="wrapper" class="modal-wrapper scale-0 duration-300 flex items-center justify-center fixed top-0 bottom-0 left-0 right-0 bg-[#00000097] backdrop-blur-[5px]">
+        <div class="modal-inner p-[20px] bg-white rounded-md"></div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
-</html>
+</html> 
